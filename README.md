@@ -9,12 +9,12 @@
 
 * Ми хочемо оновити нашу гілку до останнього стану:
     1. git checkout master (Або основну)
-    2. git pull origin master (Або основну) ===> оновлюємо master до останньої версії
-    3. git checkout назва-гілки 
-    4. git merge master (Або основну) ===> Ми зливаємо (всі змінни що є в master) гілку master в нашу гілку
-    5. Можуть виникнути конфлікти
+    1. git pull origin master (Або основну) ===> оновлюємо master до останньої версії
+    1. git checkout назва-гілки 
+    1. git merge master (Або основну) ===> Ми зливаємо (всі змінни що є в master) гілку master в нашу гілку
+    1. Можуть виникнути конфлікти
         1. в едіторі залишаємо ті частини коду які нас влаштовують
-        2. git add імя-файлу-з-конфліктами
-        3. git commit -am "Merge Master"
-    6. git push origin назва-гілки
+        1. git add імя-файлу-з-конфліктами
+        1. git commit -am "Merge Master"
+    1. git push origin назва-гілки
 
