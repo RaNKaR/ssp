@@ -1,9 +1,23 @@
 body {
-    color: green;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.right {
+    float: right;
+}
 
+.head {
+    height: 50px;
+    border: 1px solid aqua;
+}
+
+.hhh {
+    font-size: 50px;
+}
+
+.p25 {
+    font-size: 25px;
+}
 
 text-align:
 margin: 
