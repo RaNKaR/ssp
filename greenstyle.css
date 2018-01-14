@@ -9,6 +9,8 @@ body {
 .head {
     height: 50px;
     border: 1px solid aqua;
+    padding: 20px 20px 0 20px;
+    font-weight: bold;
 }
 .head a {
     padding: 10px;
@@ -19,7 +21,7 @@ a {
 }
 
 :link {
-    color: black;
+    color: #484646;
 }
 
 :hover {
@@ -45,10 +47,12 @@ a {
 }
 
 .text1 {
-    
+    border: 1px solid aqua;
+    width: 800px;
 }
 
 .bluebox {
+    display: inline-block;
     width: 100px;
     height: 100px;
     background-color: #6c6cfa;
