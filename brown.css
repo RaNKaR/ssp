@@ -1,6 +1,16 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
 p {
     color: green;
+    text-align: center;
 }
-span {
-    background-color: blue;
+h2 {
+    color: cyan;
+    text-align: center;
+}
+h3 {
+    color: darkviolet;
+    text-align: center;
 }
