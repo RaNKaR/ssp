@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.right {
+.right, .bluebox {
     float: right;
 }
 
@@ -32,8 +32,12 @@ a {
     color: #1313a0;
 }
 
-
-
+.cap {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: 50px;
+}
 
 .hhh {
     font-size: 50px;
@@ -41,9 +45,11 @@ a {
 }
 
 .p25 {
-    font-size: 25px;
-    width: 300px;
-    color: gray;
+    font-size: 22px;
+    width: 700px;
+    color: rgb(165, 164, 164);
+    word-spacing: 4px;
+    line-height: 30px;
 }
 
 .text1 {
@@ -51,16 +57,34 @@ a {
     width: 800px;
 }
 
-.bluebox {
+.text1 a {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 40px 20px;
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: #6c6cfa;
-    color: blue;
 }
 
 .text1 {
-    margin: 100px 0 70px 60px;
+    margin: 100px 0 0 60px;
+}
+
+.text1, .bluebox {
+    display: inline-block;
+}
+
+#bord {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.bluebox {
+    background-color: #6c6cfa;
+    color: white;
+    margin: 100 0 0 0;
+    padding: 50px 20px;
+    width: 250px;
+    height: 380px;
 }
 
 text-align:
