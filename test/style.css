@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+header {
+    box-shadow: -1px 0px 10px rgba(0,0,0,0.5);
+    height: 60px;
+}
+
+header > nav {
+    float: left;
+}
+
+header > .user-actions {
+    float: right;
+}
+
+a { 
+    text-decoration: none;
+    color: #000000;
+    margin: 21px 10px;
+    display: inline-block;
+} 
+
+a:hover {
+    color: #ba67cb;
+}
+
+.login {
+    content: " ";
+    height: 20px;
+    width: 20px;
+    background-image: url(login-icon.png);
+}
+
+.some-shity-box {
+    background-color: #6161e5;
+    height: 400px;
+    width: 200px;
+    float: right;
+    border-radius: 10px 0 0 10px; 
+    padding: 20px;
+}
+
+.first-row {
+    margin: 200px 0 200px 100px;
+}
+
+.first-row > section {
+    display: inline-block;
+}
+
+.first-row > section:first-child {
+    width: 600px;
+}
+
+.section-header {
+    font-size: 35px;
+}
+
+button {
+    padding: 15px 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 666;
+    outline: none;
+    border: 2px solid #c7dfd4;
+    cursor: progress;
+}
