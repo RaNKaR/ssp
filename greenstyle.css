@@ -123,6 +123,26 @@ button img {
     padding: 20px 20px 20px 35px;
 }
 
+.center {
+    margin: 300px 250px 0 250px;
+    text-align: center;
+}
+
+.center div {
+    padding: 20px 0 0 0;
+    font-size: 22px;
+    color: black;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.center div a {
+    font-size: 17px;
+    color: rgb(66, 123, 230);
+}
+
 text-align:
 margin: 
 padding: 
