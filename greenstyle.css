@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.right, .bluebox {
+.right, .bluebox, .mmm {
     float: right;
 }
 
@@ -141,6 +141,42 @@ button img {
 .center div a {
     font-size: 17px;
     color: rgb(66, 123, 230);
+}
+
+.text2 {
+    margin: 200px 0 60px 80px;
+}
+
+.text2 section, .text2 div {
+    display: inline-block;
+}
+
+.text2 section {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.bb2 {
+    padding: 20px 0 0 0;
+    font-size: 22px;
+    color: black;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.b1 {
+    font-size: 16px;
+    width: 480px;
+    color: #888484;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.mmm {
+    margin-top: 2px;
 }
 
 text-align:
