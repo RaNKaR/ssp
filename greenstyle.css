@@ -8,7 +8,7 @@ body {
 
 .head {
     height: 50px;
-    border: 1px solid aqua;
+    box-shadow: -1px 0px 10px #aca9a980;
     padding: 20px 20px 0 20px;
     font-weight: bold;
 }
@@ -21,7 +21,7 @@ a {
 }
 
 :link {
-    color: #484646;
+    color: black;
 }
 
 :hover {
@@ -53,23 +53,45 @@ a {
 }
 
 .text1 {
-    border: 1px solid aqua;
     width: 800px;
 }
 
 .text1 a {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
     padding: 40px 20px;
     display: inline-block;
 }
 
 .text1 {
-    margin: 100px 0 0 60px;
+    margin: 100px 0 0 80px;
 }
 
 .text1, .bluebox {
     display: inline-block;
+}
+
+.text1 button {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+    outline: none;
+    border: 3px solid #5ad45e;
+    cursor: cell;
+    background-color: white;
+    line-height: 2;
+}
+
+button {
+    position: relative;
+}
+
+button img {
+    position: absolute;
+    left: 10px;
 }
 
 #bord {
@@ -79,12 +101,17 @@ a {
 }
 
 .bluebox {
-    background-color: #6c6cfa;
+    background-color: #5ad45e;
     color: white;
     margin: 100 0 0 0;
-    padding: 50px 20px;
+    padding: 50px 10px 50px 40px;
     width: 250px;
     height: 380px;
+    border-radius: 10px 0 0 10px;
+}
+
+.bluebox img {
+    padding: 20px 20px 20px 35px;
 }
 
 text-align:
