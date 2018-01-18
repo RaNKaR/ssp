@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.right, .bluebox, .mmm {
+.right, .bluebox, .mmm, .test {
     float: right;
 }
 
@@ -175,8 +175,33 @@ button img {
     line-height: 25px;
 }
 
-.mmm {
-    margin-top: 2px;
+footer {
+    margin: 180px 30px 80px 30px;
+}
+
+.chat, .test {
+    display: inline-block;
+}
+
+footer a {
+    padding: 10px;
+}
+
+footer span {
+    padding: 10px 0 10px 10px;
+}
+
+footer div {
+    margin-bottom: 25px;
+}
+
+footer span {
+    font-size: 17px;
+    color: #888484;
+}
+
+footer a {
+    font-size: 17px;
 }
 
 text-align:
