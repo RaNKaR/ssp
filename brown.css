@@ -1,10 +1,11 @@
 h1 {
     color: blue;
-    text-align: center;
 }
 p {
     color: green;
     text-align: center;
+    margin-left: 250px;
+    margin-right: 500px;
 }
 h2 {
     color: cyan;
@@ -13,4 +14,9 @@ h2 {
 h3 {
     color: darkviolet;
     text-align: center;
+}
+.first {
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
 }
