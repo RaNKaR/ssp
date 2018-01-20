@@ -28,7 +28,7 @@ nav a:hover {
 }
 
 .eur {
-    margin: 40px;
+    margin: 80px;
     padding: 0;
     font-size: 16px;
     font-weight: bold;
@@ -39,8 +39,9 @@ nav a:hover {
     font-weight: 100;
 }
 
-menu li {
+ul li {
     display: inline-block;
-    width: 150px;
-    text-align: right;
+    padding-left: 30px;
 }
+
+font femily
